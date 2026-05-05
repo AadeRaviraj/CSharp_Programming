@@ -13,7 +13,15 @@ namespace Practice
             Console.WriteLine("Hello Main");
             LB_Q1 obj1 = new LB_Q1();
 
-            obj1.show();
+            List<int> result = obj1.add();
+
+
+            //obj1.add();
+
+            foreach (int a in result)
+            {
+                Console.WriteLine("Array Values : " + a);
+            }
         }
     }
 }
