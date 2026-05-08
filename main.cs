@@ -23,19 +23,46 @@ namespace Practice
             //    Console.WriteLine("Array Values : " + a);
 
             //}
-            Console.WriteLine("Enter a Number to check number is palindrom or not : ");
-            int userInput = int.Parse(Console.ReadLine());
-            LB_Q2 obj2 = new LB_Q2();
-            bool  res = obj2.palindrom(userInput);
-            if (res)
-            {
-                Console.WriteLine("It is  palindrom number " );
-            }
-            else
-            {
-                Console.WriteLine("It is not a Plaindrom number ");
 
+
+
+            //===============================================================================================
+            //===============================================================================================
+
+
+            //Console.WriteLine("Enter a Number to check number is palindrom or not : ");
+            //int userInput = int.Parse(Console.ReadLine());
+            //LB_Q2 obj2 = new LB_Q2();
+            //bool  res = obj2.palindrom(userInput);
+            //if (res)
+            //{
+            //    Console.WriteLine("It is  palindrom number " );
+            //}
+            //else
+            //{
+            //    Console.WriteLine("It is not a Plaindrom number ");
+
+            //}
+
+
+
+            //===============================================================================================
+            // Q3 : 
+            //===============================================================================================
+            Console.WriteLine("Enter the size of Array : ");
+            int userInput = int.Parse(Console.ReadLine());
+            int[] userArr = new int[userInput];
+
+            Console.WriteLine("Below Enter the elements  : ");
+            for ( int a = 0; a < userArr.Length; a++)
+            {
+                userArr[a] += int.Parse(Console.ReadLine());
             }
+            LB_Q3 obj3 = new LB_Q3();
+            int result = obj3.largestNumber(userArr);
+
+            Console.WriteLine("Largest number is : " + result);
+
 
         }
     }
