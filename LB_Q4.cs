@@ -21,5 +21,18 @@ namespace Practice
 
 
         }
+
+        // Given a string, find the frequency of each character 
+        // and print the corresponding character count.
+        //
+        // str = "Hello,success"
+        //
+        // Output:
+        // s = 3
+        // u = 1
+        // c = 2
+        // e = 1
+
+
     }
 }
