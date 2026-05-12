@@ -33,6 +33,7 @@ namespace Practice
         // c = 2
         // e = 1
 
+        public void calculateCorrespondence
 
     }
 }
