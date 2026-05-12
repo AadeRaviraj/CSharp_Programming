@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    internal class main : LB_Q4
+    internal class main 
     {
         static void Main(string[] args)
         {
@@ -69,9 +69,10 @@ namespace Practice
             ////===============================================================================================
             //// Q4 : Strings 
             ////===============================================================================================
-            LB_Q4 obj4 = new main();
+            LB_Q4 obj4 = new LB_Q4();
             obj4.showString();
 
+            obj4.CountCharacterOccurrences();
         }
     }
 }

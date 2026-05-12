@@ -33,7 +33,60 @@ namespace Practice
         // c = 2
         // e = 1
 
-        public void calculateCorrespondence
+        public void CountCharacterOccurrences()
+        {
+            string str = "Hello,success";
+            int z=0, b=0, c=0, d=0, e=0, f=0, g=0;
+
+
+            foreach( var a   in str)
+            {
+                if(a == 'H')
+                {
+                    z++;
+
+                } else if(a == 'e')
+                {
+                    b++;
+
+                } else if (a == 'l')
+                {
+                    c++;
+
+                } else if( a == 'o')
+                {
+
+                    d++;
+                } else if( a == 's')
+                {
+
+                    e++;
+                } else if(a == 'u')
+                {
+
+                    f++;
+                } else {
+                    g++;
+                
+                }
+              
+            }
+
+            Console.WriteLine('h' + " = " + z);
+
+            Console.WriteLine('e' + " = " + b);
+
+            Console.WriteLine('l' + " = " + c);
+
+            Console.WriteLine('o' + " = " + d);
+
+            Console.WriteLine('s' + " = " + e);
+
+            Console.WriteLine('u' + " = " + f);
+
+            Console.WriteLine('c' + " = " + g);
+
+        }
 
     }
 }
