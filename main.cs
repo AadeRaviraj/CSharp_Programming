@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    internal class main
+    internal class main : LB_Q4
     {
         static void Main(string[] args)
         {
@@ -46,23 +46,31 @@ namespace Practice
 
 
 
-            //===============================================================================================
-            // Q3 : 
-            //===============================================================================================
-            Console.WriteLine("Enter the size of Array : ");
-            int userInput = int.Parse(Console.ReadLine());
-            int[] userArr = new int[userInput];
+            ////===============================================================================================
+            //// Q3 : 
+            ////===============================================================================================
+            //Console.WriteLine("Enter the size of Array : ");
+            //int userInput = int.Parse(Console.ReadLine());
+            //int[] userArr = new int[userInput];
 
-            Console.WriteLine("Below Enter the elements  : ");
-            for ( int a = 0; a < userArr.Length; a++)
-            {
-                userArr[a] += int.Parse(Console.ReadLine());
-            }
-            LB_Q3 obj3 = new LB_Q3();
-            int result = obj3.largestNumber(userArr);
+            //Console.WriteLine("Below Enter the elements  : ");
+            //for ( int a = 0; a < userArr.Length; a++)
+            //{
+            //    userArr[a] += int.Parse(Console.ReadLine());
+            //}
+            //LB_Q3 obj3 = new LB_Q3();
+            //int result = obj3.largestNumber(userArr);
 
-            Console.WriteLine("Largest number is : " + result);
+            //Console.WriteLine("Largest number is : " + result);
 
+
+
+
+            ////===============================================================================================
+            //// Q4 : Strings 
+            ////===============================================================================================
+            LB_Q4 obj4 = new main();
+            obj4.showString();
 
         }
     }
